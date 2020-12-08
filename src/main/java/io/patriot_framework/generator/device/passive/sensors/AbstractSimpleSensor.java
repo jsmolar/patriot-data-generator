@@ -60,7 +60,7 @@ public abstract class AbstractSimpleSensor extends AbstractSensor implements Sim
 
     @Override
     public void addDataFeed(DataFeed dataFeed) {
-        throw new UnsupportedOperationException("Only single data feed is allowed");
+        setDataFeed(dataFeed);
     }
 
 }
